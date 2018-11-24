@@ -5,6 +5,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.context.config.ConfigFileApplicationListener;
 import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent;
@@ -15,6 +17,8 @@ import org.springframework.boot.env.PropertiesPropertySourceLoader;
 import org.springframework.boot.logging.DeferredLog;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.event.EventListener;
 import org.springframework.core.Ordered;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.MutablePropertySources;
@@ -24,20 +28,21 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.core.io.support.ResourcePatternResolver;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import com.vsoft.framework.context.CompanyLogo;
 
 /**
  * appconf配置文件加载
- * 
+ *
  * @author LiuPeng
- * 
+ *
  */
 public class AppConfigFileListener implements EnvironmentPostProcessor, Ordered, ApplicationListener<ApplicationEvent> {
 
-	private static final DeferredLog logger = new DeferredLog();
-
+	//private static final DeferredLog logger = new DeferredLog();
+	private final static Log logger = LogFactory.getLog(AppConfigFileListener.class);
 	private final static String LOCATION = "file:appconf/config-*.properties,classpath:/appconf/config-*.properties";
 
 	PropertiesPropertySourceLoader propertiesLoader = new PropertiesPropertySourceLoader();
@@ -69,7 +74,7 @@ public class AppConfigFileListener implements EnvironmentPostProcessor, Ordered,
 						continue;
 					}
 					//PropertySource<?> propertySource = this.propertiesLoader.load(resource);
-					List<PropertySource<?>> liu123 = this.propertiesLoader.load("liu123", resource);
+					List<PropertySource<?>> liu123 = this.propertiesLoader.load(resource.getFilename(), resource);
                     for (int i = 0; i < liu123.size(); i++) {
                         PropertySource<?> propertySource =  liu123.get(i);
                         logger.info("加载平台配置文件 - [" + propertySource.getName() + "]");
@@ -93,7 +98,7 @@ public class AppConfigFileListener implements EnvironmentPostProcessor, Ordered,
 
 	/*
 	 * @param event
-	 * 
+	 *
 	 * @see org.springframework.context.ApplicationListener#onApplicationEvent(org.
 	 * springframework.context.ApplicationEvent)
 	 */
@@ -104,7 +109,7 @@ public class AppConfigFileListener implements EnvironmentPostProcessor, Ordered,
 			postProcessEnvironment(e.getEnvironment(), e.getSpringApplication());
 		}
 		if (event instanceof ApplicationPreparedEvent) {
-			logger.replayTo(AppConfigFileListener.class);
+			logger.info(AppConfigFileListener.class);
 		}
 	}
 }
