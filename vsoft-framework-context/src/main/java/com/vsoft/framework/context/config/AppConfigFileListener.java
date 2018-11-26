@@ -5,20 +5,20 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import com.vsoft.framework.context.VsoftFrameworkContextApplication;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.context.config.ConfigFileApplicationListener;
 import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent;
 import org.springframework.boot.context.event.ApplicationPreparedEvent;
+import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.boot.env.EnvironmentPostProcessor;
 
 import org.springframework.boot.env.PropertiesPropertySourceLoader;
 import org.springframework.boot.logging.DeferredLog;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.event.EventListener;
 import org.springframework.core.Ordered;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.MutablePropertySources;
@@ -39,12 +39,13 @@ import com.vsoft.framework.context.CompanyLogo;
  * @author LiuPeng
  *
  */
+@Component
 public class AppConfigFileListener implements EnvironmentPostProcessor, Ordered, ApplicationListener<ApplicationEvent> {
 
-	//private static final DeferredLog logger = new DeferredLog();
-	private final static Log logger = LogFactory.getLog(AppConfigFileListener.class);
+	private static final DeferredLog logger = new DeferredLog();
+	//private final static Log logger = LogFactory.getLog(VsoftFrameworkContextApplication.class);
+	//logger.
 	private final static String LOCATION = "file:appconf/config-*.properties,classpath:/appconf/config-*.properties";
-
 	PropertiesPropertySourceLoader propertiesLoader = new PropertiesPropertySourceLoader();
 
 	private ConfigurableEnvironment environment;
@@ -52,10 +53,11 @@ public class AppConfigFileListener implements EnvironmentPostProcessor, Ordered,
 	private ResourceLoader resourceLoader;
 
 	@Override
-	public void postProcessEnvironment(ConfigurableEnvironment environment, SpringApplication application) {
-
+	public void postProcessEnvironment(ConfigurableEnvironment environment,  SpringApplication application) {
 		logger.info(CompanyLogo.companyString);
-
+		System.out.println("---------------------------postProcessEnvironment--1---执行了");
+		logger.warn("---------------------------postProcessEnvironment-2----执行了");
+		logger.error("---------------------------postProcessEnvironment-3----执行了");
 		// 此处可以http方式 到配置服务器拉取一堆公共配置+本项目个性配置的json串,拼到Properties里
 		this.environment = environment;
 		try {
@@ -84,6 +86,8 @@ public class AppConfigFileListener implements EnvironmentPostProcessor, Ordered,
 
 				}
 			}
+			//logger.switchTo(AppConfigFileListener.class);
+
 		} catch (IOException e) {
 			logger.error("加载平台配置文件失败", e);
 		}
@@ -104,12 +108,21 @@ public class AppConfigFileListener implements EnvironmentPostProcessor, Ordered,
 	 */
 	@Override
 	public void onApplicationEvent(ApplicationEvent event) {
-		if (event instanceof ApplicationEnvironmentPreparedEvent) {
+        System.out.println("----------0");
+        if (event instanceof ApplicationEnvironmentPreparedEvent) {
+            System.out.println("----------1");
 			ApplicationEnvironmentPreparedEvent e = (ApplicationEnvironmentPreparedEvent) event;
 			postProcessEnvironment(e.getEnvironment(), e.getSpringApplication());
 		}
 		if (event instanceof ApplicationPreparedEvent) {
-			logger.info(AppConfigFileListener.class);
+            System.out.println("---------2");
+			logger.replayTo(AppConfigFileListener.class);
 		}
+        if (event instanceof ApplicationReadyEvent) {
+            System.out.println("---------3");
+            logger.replayTo(AppConfigFileListener.class);
+        }
+        System.out.println("---"+event.getClass().getName());//1ServletWebServerInitializedEvent 2ApplicationStartedEvent 3ApplicationReadyEvent
+        logger.replayTo(AppConfigFileListener.class);
 	}
 }

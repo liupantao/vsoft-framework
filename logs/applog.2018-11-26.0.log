@@ -1,0 +1,392 @@
+2018-11-26 15:05:41.073 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 12124 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+2018-11-26 15:05:41.105 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-11-26 15:05:51.901 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-11-26 15:05:51.952 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-11-26 15:05:51.966 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-26 15:05:51.966 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-26 15:05:52.005 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-11-26 15:05:52.265 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-26 15:05:52.266 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 10658 ms
+2018-11-26 15:05:52.352 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-26 15:05:52.372 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 15:05:52.373 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 15:05:52.373 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 15:05:52.374 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 15:05:53.296 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 15:07:20.110 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-11-26 15:07:20.368 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-26 15:07:20.425 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-11-26 15:07:28.906 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Started VsoftFrameworkContextApplication in 122.394 seconds (JVM running for 131.239)
+2018-11-26 15:10:21.988 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動
+2018-11-26 15:10:21.994 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-11-26 15:11:11.979 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 5316 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+2018-11-26 15:11:11.990 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-11-26 15:11:15.079 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-11-26 15:11:15.111 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-11-26 15:11:15.127 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-26 15:11:15.128 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-26 15:11:15.145 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-11-26 15:11:15.377 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-26 15:11:15.378 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3150 ms
+2018-11-26 15:11:15.441 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-26 15:11:15.454 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 15:11:15.454 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 15:11:15.455 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 15:11:15.455 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 15:11:15.989 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 15:11:16.326 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-11-26 15:11:16.345 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-26 15:11:16.376 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-11-26 15:11:16.384 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Started VsoftFrameworkContextApplication in 6.265 seconds (JVM running for 9.181)
+2018-11-26 15:11:16.389 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動
+2018-11-26 15:11:16.390 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-11-26 15:11:46.313 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 12188 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+2018-11-26 15:11:46.332 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-11-26 15:11:49.885 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-11-26 15:11:49.912 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-11-26 15:11:49.924 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-26 15:11:49.924 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-26 15:11:49.937 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-11-26 15:11:50.166 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-26 15:11:50.167 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2834 ms
+2018-11-26 15:11:50.232 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-26 15:11:50.241 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 15:11:50.242 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 15:11:50.243 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 15:11:50.243 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 15:11:50.606 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 15:11:50.950 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-11-26 15:11:50.951 [main] WARN  c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-11-26 15:11:50.951 [main] ERROR c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-11-26 15:11:50.951 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-11-26 15:11:50.951 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-11-26 15:11:50.967 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-11-26 15:11:50.985 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-26 15:11:51.015 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-11-26 15:11:51.022 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Started VsoftFrameworkContextApplication in 6.923 seconds (JVM running for 9.286)
+2018-11-26 15:11:51.027 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動
+2018-11-26 15:11:51.028 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-11-26 15:21:04.887 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 11636 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+2018-11-26 15:21:04.927 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-11-26 15:21:08.061 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-11-26 15:21:08.086 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-11-26 15:21:08.096 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-26 15:21:08.096 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-26 15:21:08.111 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-11-26 15:21:08.315 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-26 15:21:08.316 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3100 ms
+2018-11-26 15:21:08.376 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-26 15:21:08.385 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 15:21:08.386 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 15:21:08.386 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 15:21:08.387 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 15:21:08.809 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 15:21:09.273 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-11-26 15:21:09.275 [main] WARN  c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-11-26 15:21:09.275 [main] ERROR c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-11-26 15:21:09.275 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-11-26 15:21:09.275 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-11-26 15:21:09.293 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-11-26 15:21:09.316 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-26 15:21:09.348 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-11-26 15:21:09.357 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Started VsoftFrameworkContextApplication in 5.983 seconds (JVM running for 8.467)
+2018-11-26 15:21:09.365 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動
+2018-11-26 15:21:09.366 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-11-26 15:26:28.521 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 11496 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+2018-11-26 15:26:28.532 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-11-26 15:26:31.134 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-11-26 15:26:31.166 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-11-26 15:26:31.179 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-26 15:26:31.179 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-26 15:26:31.195 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-11-26 15:26:31.401 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-26 15:26:31.402 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2556 ms
+2018-11-26 15:26:31.468 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-26 15:26:31.477 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 15:26:31.478 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 15:26:31.478 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 15:26:31.479 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 15:26:31.891 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 15:26:32.244 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-11-26 15:26:32.244 [main] WARN  c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-11-26 15:26:32.245 [main] ERROR c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-11-26 15:26:32.245 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-11-26 15:26:32.245 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-11-26 15:26:32.261 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-11-26 15:26:32.278 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-26 15:26:32.313 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-11-26 15:26:32.320 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Started VsoftFrameworkContextApplication in 6.112 seconds (JVM running for 8.504)
+2018-11-26 15:26:32.327 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動
+2018-11-26 15:26:32.328 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-11-26 16:04:21.297 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 10936 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+2018-11-26 16:04:21.307 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-11-26 16:04:24.876 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-11-26 16:04:24.906 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:04:24.917 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-26 16:04:24.918 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-26 16:04:24.932 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-11-26 16:04:25.178 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-26 16:04:25.179 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3542 ms
+2018-11-26 16:04:25.226 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-26 16:04:25.235 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 16:04:25.236 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 16:04:25.236 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 16:04:25.236 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 16:04:25.716 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 16:04:26.050 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-11-26 16:04:26.051 [main] WARN  c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-11-26 16:04:26.051 [main] ERROR c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-11-26 16:04:26.051 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-11-26 16:04:26.051 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-11-26 16:04:26.067 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:04:26.090 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-26 16:04:26.144 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-11-26 16:04:26.156 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Started VsoftFrameworkContextApplication in 6.296 seconds (JVM running for 8.916)
+2018-11-26 16:04:26.164 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動
+2018-11-26 16:04:26.165 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-11-26 16:05:06.042 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 12624 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+2018-11-26 16:05:06.059 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-11-26 16:05:09.098 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-11-26 16:05:09.131 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:05:09.142 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-26 16:05:09.143 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-26 16:05:09.160 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-11-26 16:05:09.379 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-26 16:05:09.380 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3038 ms
+2018-11-26 16:05:09.449 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-26 16:05:09.460 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 16:05:09.461 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 16:05:09.461 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 16:05:09.461 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 16:05:09.881 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 16:05:10.267 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-11-26 16:05:10.267 [main] WARN  c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-11-26 16:05:10.267 [main] ERROR c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-11-26 16:05:10.268 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-11-26 16:05:10.268 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-11-26 16:05:10.285 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:05:10.302 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-26 16:05:10.334 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-11-26 16:05:10.341 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Started VsoftFrameworkContextApplication in 6.458 seconds (JVM running for 9.194)
+2018-11-26 16:05:10.347 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動
+2018-11-26 16:05:10.348 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-11-26 16:10:14.609 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 12892 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+2018-11-26 16:10:14.633 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-11-26 16:10:17.796 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-11-26 16:10:17.823 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:10:17.838 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-26 16:10:17.839 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-26 16:10:17.857 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-11-26 16:10:18.081 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-26 16:10:18.082 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3267 ms
+2018-11-26 16:10:18.190 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-26 16:10:18.202 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 16:10:18.203 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 16:10:18.203 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 16:10:18.204 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 16:10:18.712 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 16:10:19.049 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-11-26 16:10:19.050 [main] WARN  c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-11-26 16:10:19.051 [main] ERROR c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-11-26 16:10:19.051 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-11-26 16:10:19.051 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-11-26 16:10:19.067 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:10:19.088 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-26 16:10:19.122 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-11-26 16:10:19.129 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Started VsoftFrameworkContextApplication in 6.048 seconds (JVM running for 8.791)
+2018-11-26 16:10:19.136 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動
+2018-11-26 16:10:19.137 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-11-26 16:13:51.531 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 13300 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+2018-11-26 16:13:51.542 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-11-26 16:13:55.493 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-11-26 16:13:55.522 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:13:55.533 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-26 16:13:55.533 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-26 16:13:55.551 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-11-26 16:13:55.821 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-26 16:13:55.822 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4142 ms
+2018-11-26 16:13:55.868 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-26 16:13:55.876 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 16:13:55.877 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 16:13:55.877 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 16:13:55.877 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 16:13:56.264 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 16:13:56.611 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-11-26 16:13:56.613 [main] WARN  c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-11-26 16:13:56.613 [main] ERROR c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-11-26 16:13:56.614 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-11-26 16:13:56.614 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-11-26 16:13:56.628 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:13:56.655 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-26 16:13:56.696 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-11-26 16:13:56.706 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Started VsoftFrameworkContextApplication in 6.661 seconds (JVM running for 9.113)
+2018-11-26 16:13:56.714 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動
+2018-11-26 16:13:56.715 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-11-26 16:18:42.883 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 10256 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+2018-11-26 16:18:42.892 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-11-26 16:18:46.109 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-11-26 16:18:46.135 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:18:46.146 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-26 16:18:46.146 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-26 16:18:46.162 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-11-26 16:18:46.378 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-26 16:18:46.379 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3091 ms
+2018-11-26 16:18:46.437 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-26 16:18:46.447 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 16:18:46.447 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 16:18:46.448 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 16:18:46.448 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 16:18:46.894 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 16:18:47.201 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-11-26 16:18:47.202 [main] WARN  c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-11-26 16:18:47.202 [main] ERROR c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-11-26 16:18:47.202 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-11-26 16:18:47.202 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-11-26 16:18:47.217 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:18:47.238 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-26 16:18:47.278 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-11-26 16:18:47.285 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Started VsoftFrameworkContextApplication in 6.105 seconds (JVM running for 8.473)
+2018-11-26 16:18:47.292 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動
+2018-11-26 16:18:47.294 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+[2m2018-11-26 16:20:41.320[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.v.f.c.VsoftFrameworkContextApplication[0;39m [2m:[0;39m Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 13028 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+[2m2018-11-26 16:20:41.331[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.v.f.c.VsoftFrameworkContextApplication[0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2018-11-26 16:20:43.957[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8081 (http)
+[2m2018-11-26 16:20:43.985[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Initializing ProtocolHandler ["http-nio-8081"]
+[2m2018-11-26 16:20:43.996[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2018-11-26 16:20:43.997[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet Engine: Apache Tomcat/9.0.12
+[2m2018-11-26 16:20:44.013[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+[2m2018-11-26 16:20:44.229[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2018-11-26 16:20:44.231[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2765 ms
+[2m2018-11-26 16:20:44.319[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.servlet.ServletRegistrationBean [0;39m [2m:[0;39m Servlet dispatcherServlet mapped to [/]
+[2m2018-11-26 16:20:44.336[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'characterEncodingFilter' to: [/*]
+[2m2018-11-26 16:20:44.338[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2m2018-11-26 16:20:44.340[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'formContentFilter' to: [/*]
+[2m2018-11-26 16:20:44.342[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.servlet.FilterRegistrationBean  [0;39m [2m:[0;39m Mapping filter: 'requestContextFilter' to: [/*]
+[2m2018-11-26 16:20:44.856[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2018-11-26 16:20:45.183[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.v.f.c.config.AppConfigFileListener    [0;39m [2m:[0;39m 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+[2m2018-11-26 16:20:45.184[0;39m [33m WARN[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.v.f.c.config.AppConfigFileListener    [0;39m [2m:[0;39m ---------------------------postProcessEnvironment-2----执行了
+[2m2018-11-26 16:20:45.185[0;39m [31mERROR[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.v.f.c.config.AppConfigFileListener    [0;39m [2m:[0;39m ---------------------------postProcessEnvironment-3----执行了
+[2m2018-11-26 16:20:45.185[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.v.f.c.config.AppConfigFileListener    [0;39m [2m:[0;39m 加载平台配置文件 - [config-redis.properties]
+[2m2018-11-26 16:20:45.186[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.v.f.c.config.AppConfigFileListener    [0;39m [2m:[0;39m 加载平台配置文件 - [config-remote.properties]
+[2m2018-11-26 16:20:45.203[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.coyote.http11.Http11NioProtocol     [0;39m [2m:[0;39m Starting ProtocolHandler ["http-nio-8081"]
+[2m2018-11-26 16:20:45.223[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.tomcat.util.net.NioSelectorPool     [0;39m [2m:[0;39m Using a shared selector for servlet write/read
+[2m2018-11-26 16:20:45.265[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8081 (http) with context path ''
+[2m2018-11-26 16:20:45.275[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.v.f.c.VsoftFrameworkContextApplication[0;39m [2m:[0;39m Started VsoftFrameworkContextApplication in 6.166 seconds (JVM running for 8.861)
+[2m2018-11-26 16:20:45.283[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.v.f.c.VsoftFrameworkContextApplication[0;39m [2m:[0;39m ****************項目啟動
+[2m2018-11-26 16:20:45.285[0;39m [32m INFO[0;39m [35m13028[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.v.f.c.VsoftFrameworkContextApplication[0;39m [2m:[0;39m ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}
+2018-11-26 16:26:03.799 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Starting VsoftFrameworkContextApplication on QT3KMGZA8DVGKWA with PID 10728 (D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context\target\classes started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework)
+2018-11-26 16:26:03.809 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - No active profile set, falling back to default profiles: default
+2018-11-26 16:26:06.925 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2018-11-26 16:26:06.949 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:26:06.958 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-26 16:26:06.959 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-26 16:26:06.972 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\java\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\root\product\12.2.0\dbhome_2\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\java\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Subversion\bin;%CXF;%ORCALE_HOME%\BIN;C:\Program Files\MySQL\MySQL Server 8.0\bin;E:\greensoft\git\Git\cmd;D:\IDEA\ideaSoft\apache-maven-3.5.4\bin;C:\Program Files\TortoiseSVN\bin;E:\java\secureCRT\;.]
+2018-11-26 16:26:07.187 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-26 16:26:07.188 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2313 ms
+2018-11-26 16:26:07.236 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-26 16:26:07.248 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-26 16:26:07.249 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-26 16:26:07.250 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-26 16:26:07.250 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-26 16:26:07.629 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-26 16:26:07.943 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 											                                	
+
+███╗   ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗ ██████╗  █████╗ ██╗  ██╗ █████╗ 	
+████╗  ██║██╔══██╗██║   ██║██╔══██╗██╔════╝ ██╔══██╗██╔══██╗██║  ██║██╔══██╗	
+██╔██╗ ██║███████║██║   ██║███████║██║  ███╗██████╔╝███████║███████║███████║	
+██║╚██╗██║██╔══██║╚██╗ ██╔╝██╔══██║██║   ██║██╔══██╗██╔══██║██╔══██║██╔══██║	
+██║ ╚████║██║  ██║ ╚████╔╝ ██║  ██║╚██████╔╝██║  ██║██║  ██║██║  ██║██║  ██║	
+╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝	
+ :: navagraha-framework (v1.0.1) : http://www.navagraha.com
+
+2018-11-26 16:26:07.944 [main] WARN  c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-2----执行了
+2018-11-26 16:26:07.944 [main] ERROR c.v.framework.context.config.AppConfigFileListener - ---------------------------postProcessEnvironment-3----执行了
+2018-11-26 16:26:07.944 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-redis.properties]
+2018-11-26 16:26:07.944 [main] INFO  c.v.framework.context.config.AppConfigFileListener - 加载平台配置文件 - [config-remote.properties]
+2018-11-26 16:26:07.958 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2018-11-26 16:26:07.976 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-26 16:26:08.007 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2018-11-26 16:26:08.016 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - Started VsoftFrameworkContextApplication in 6.491 seconds (JVM running for 8.85)
+2018-11-26 16:26:08.024 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動
+2018-11-26 16:26:08.025 [main] INFO  c.v.f.context.VsoftFrameworkContextApplication - ****************項目啟動{remote.log.logDetails=false, remote.log.printall=true, remote.default.channel=local}

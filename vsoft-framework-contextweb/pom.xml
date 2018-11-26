@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.vsoft.framework.context</groupId>
-    <artifactId>vsoft-framework-context</artifactId>
+    <groupId>com.vsoft.framework.contextweb</groupId>
+    <artifactId>vsoft-framework-contextweb</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>vsoft-framework-context</name>
+    <name>vsoft-framework-contextweb</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -25,10 +25,11 @@
     </properties>
 
     <dependencies>
+
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.41</version>
+            <groupId>com.vsoft.framework.context</groupId>
+            <artifactId>vsoft-framework-context</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -41,7 +42,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <build>

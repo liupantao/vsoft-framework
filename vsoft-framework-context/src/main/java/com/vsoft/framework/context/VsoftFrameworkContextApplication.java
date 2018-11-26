@@ -1,6 +1,7 @@
 package com.vsoft.framework.context;
 
 import com.vsoft.framework.context.annotation.ModuleScan;
+import com.vsoft.framework.context.config.AppConfigFileListener;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.boot.SpringApplication;
@@ -22,6 +23,7 @@ public class VsoftFrameworkContextApplication {
     public static void main(String[] args) {
 
         ConfigurableApplicationContext context = SpringApplication.run(VsoftFrameworkContextApplication.class, args);
+        context.addApplicationListener(new AppConfigFileListener());
         logger.info("****************項目啟動");
         ConfigurableEnvironment environment = context.getEnvironment();
         String property1 = environment.getProperty("server.ports");

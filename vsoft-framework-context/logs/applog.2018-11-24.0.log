@@ -1,0 +1,9 @@
+2018-11-24 22:49:11.624 [main] INFO  c.v.f.c.VsoftFrameworkContextApplicationTests - Starting VsoftFrameworkContextApplicationTests on QT3KMGZA8DVGKWA with PID 5416 (started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context)
+2018-11-24 22:49:11.630 [main] INFO  c.v.f.c.VsoftFrameworkContextApplicationTests - No active profile set, falling back to default profiles: default
+2018-11-24 22:49:18.549 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-24 22:49:19.852 [main] INFO  c.v.f.c.VsoftFrameworkContextApplicationTests - Started VsoftFrameworkContextApplicationTests in 9.901 seconds (JVM running for 13.676)
+2018-11-24 22:49:44.647 [main] INFO  c.v.f.c.VsoftFrameworkContextApplicationTests - Starting VsoftFrameworkContextApplicationTests on QT3KMGZA8DVGKWA with PID 1800 (started by Administrator in D:\workspace_springboot\gsoft\vsoft-framework\vsoft-framework-context)
+2018-11-24 22:49:44.657 [main] INFO  c.v.f.c.VsoftFrameworkContextApplicationTests - No active profile set, falling back to default profiles: default
+2018-11-24 22:49:50.639 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-24 22:49:51.642 [main] INFO  c.v.f.c.VsoftFrameworkContextApplicationTests - Started VsoftFrameworkContextApplicationTests in 8.454 seconds (JVM running for 11.121)
+2018-11-24 22:49:54.099 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
